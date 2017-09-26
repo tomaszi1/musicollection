@@ -1,4 +1,4 @@
-package idziak.spring.gif;
+package pl.idziak.hr;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,5 +11,10 @@ public class Application {
     }
 
     // TODO: Actuator - health checking
+    // TODO: storing files on disk
+    // TODO: cache storage
+    // TODO: Security - users, roles
+    // TODO: UUID4 based identification
+    // TODO: reactive streams
 
 }

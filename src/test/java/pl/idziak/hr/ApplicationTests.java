@@ -1,4 +1,4 @@
-package idziak.spring.gif;
+package pl.idziak.hr;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
