@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-@Repository("employeeRepository")
+@Repository
 public class EmployeeRepositoryImpl implements EmployeeRepository {
 
     @PersistenceContext

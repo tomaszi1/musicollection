@@ -2,6 +2,8 @@ package pl.idziak.hr.domain.employee.entity;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.validator.constraints.Email;
+import pl.idziak.hr.domain.contract.entity.Contract;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -24,11 +26,14 @@ public class Employee {
     @NotNull
     private String lastName;
 
+    @NotNull
+    private Date dateOfBirth;
+
+    @Email
+    private String email;
+
     @OneToMany(mappedBy = "employee",
             cascade = CascadeType.ALL)
     private List<Contract> contracts;
-
-    @NotNull
-    private Date dateOfBirth;
 
 }

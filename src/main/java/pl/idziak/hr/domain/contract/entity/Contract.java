@@ -1,7 +1,8 @@
-package pl.idziak.hr.domain.employee.entity;
+package pl.idziak.hr.domain.contract.entity;
 
 import lombok.Getter;
 import lombok.Setter;
+import pl.idziak.hr.domain.employee.entity.Employee;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
