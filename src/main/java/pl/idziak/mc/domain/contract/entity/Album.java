@@ -20,7 +20,8 @@ public class Album {
     @GeneratedValue
     private Integer id;
 
-    private Musician musician;
+//    @ManyToOne
+//    private Musician musician;
 
     @NotNull
     private Date published;

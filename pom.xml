@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>idziak.spring.hr</groupId>
-	<artifactId>hooman-resources</artifactId>
+	<groupId>idziak.spring.mc</groupId>
+	<artifactId>musicollection</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>hooman-resources</name>
-	<description>Hooman Resources Application</description>
+	<name>musicollection</name>
+	<description>Musicollection application for fun with Spring</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -64,7 +64,6 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>6.0.6</version>
 		</dependency>
 
         <dependency>

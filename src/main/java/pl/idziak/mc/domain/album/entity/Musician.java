@@ -25,6 +25,7 @@ public class Musician {
     @NotNull
     private Date dateOfBirth;
 
-    private List<Album> albums;
+//    @OneToMany(targetEntity = Album.class, mappedBy = "musician")
+//    private List<Album> albums;
 
 }

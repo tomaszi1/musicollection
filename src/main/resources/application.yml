@@ -21,10 +21,10 @@ spring:
     favicon:
       enabled: false
   datasource:
-    url: jdbc:mysql://192.168.224.129:3306/idziak_db
+    url: jdbc:mysql://192.168.224.130:3306/idziak_db
     username: idziak
     password: idziak
-    driverClassName: com.mysql.cj.jdbc.Driver
+    driverClassName: com.mysql.jdbc.Driver
   jpa:
     properties:
       hibernate:
