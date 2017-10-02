@@ -4,7 +4,9 @@ server:
 
 logging:
   level:
-    org.hibernate.SQL: trace
+    org:
+      hibernate:
+        SQL: trace
 
 
 spring:
@@ -19,7 +21,7 @@ spring:
     favicon:
       enabled: false
   datasource:
-    url: jdbc:mysql://localhost:3306/idziak_db
+    url: jdbc:mysql://192.168.224.129:3306/idziak_db
     username: idziak
     password: idziak
     driverClassName: com.mysql.cj.jdbc.Driver
