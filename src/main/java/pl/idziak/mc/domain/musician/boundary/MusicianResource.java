@@ -1,13 +1,13 @@
-package pl.idziak.mc.domain.album.boundary;
+package pl.idziak.mc.domain.musician.boundary;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import pl.idziak.mc.dto.IdentificationDTO;
-import pl.idziak.mc.domain.album.control.MusicianService;
+import pl.idziak.mc.domain.musician.control.MusicianService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("album")
+@RequestMapping("musician")
 public class MusicianResource {
 
 	@Autowired

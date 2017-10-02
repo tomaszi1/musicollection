@@ -1,4 +1,4 @@
-package pl.idziak.mc.domain.contract.control;
+package pl.idziak.mc.domain.album.control;
 
 import org.springframework.stereotype.Repository;
 

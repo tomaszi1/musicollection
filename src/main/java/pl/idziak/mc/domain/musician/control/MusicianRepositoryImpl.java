@@ -1,6 +1,6 @@
-package pl.idziak.mc.domain.album.control;
+package pl.idziak.mc.domain.musician.control;
 
-import pl.idziak.mc.domain.album.entity.Musician;
+import pl.idziak.mc.domain.musician.entity.Musician;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;

@@ -1,4 +1,4 @@
-package pl.idziak.mc.domain.album.boundary;
+package pl.idziak.mc.domain.musician.boundary;
 
 import lombok.Getter;
 

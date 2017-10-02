@@ -1,7 +1,7 @@
-package pl.idziak.mc.domain.contract.control;
+package pl.idziak.mc.domain.album.control;
 
 import org.springframework.stereotype.Service;
-import pl.idziak.mc.domain.contract.entity.Album;
+import pl.idziak.mc.domain.album.entity.Album;
 
 @Service
 public class AlbumServiceImpl implements AlbumService {

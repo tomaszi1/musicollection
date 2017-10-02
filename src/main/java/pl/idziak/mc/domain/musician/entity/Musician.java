@@ -1,13 +1,11 @@
-package pl.idziak.mc.domain.album.entity;
+package pl.idziak.mc.domain.musician.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import pl.idziak.mc.domain.contract.entity.Album;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
-import java.util.List;
 
 
 @Entity

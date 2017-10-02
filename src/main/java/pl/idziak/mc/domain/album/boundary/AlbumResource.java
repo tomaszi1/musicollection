@@ -1,4 +1,4 @@
-package pl.idziak.mc.domain.contract.boundary;
+package pl.idziak.mc.domain.album.boundary;
 
 import org.springframework.web.bind.annotation.RestController;
 

@@ -1,6 +1,6 @@
-package pl.idziak.mc.domain.album.control;
+package pl.idziak.mc.domain.musician.control;
 
-import pl.idziak.mc.domain.album.entity.Musician;
+import pl.idziak.mc.domain.musician.entity.Musician;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
