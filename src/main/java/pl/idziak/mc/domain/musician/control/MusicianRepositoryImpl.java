@@ -17,4 +17,9 @@ public class MusicianRepositoryImpl implements MusicianRepository {
         em.persist(musician);
         return musician;
     }
+
+    @Override
+    public Musician get(long id) {
+        return em.find(Musician.class, id);
+    }
 }

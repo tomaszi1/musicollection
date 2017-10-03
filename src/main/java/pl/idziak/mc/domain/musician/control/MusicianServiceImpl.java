@@ -17,4 +17,9 @@ public class MusicianServiceImpl implements MusicianService {
     public Musician save(Musician musician) {
         return musicianRepository.save(musician);
     }
+
+    @Override
+    public Musician get(long id) {
+        return musicianRepository.get(id);
+    }
 }

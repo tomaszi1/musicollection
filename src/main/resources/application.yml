@@ -2,12 +2,6 @@
 server:
   port: 9000
 
-logging:
-  level:
-    org:
-      hibernate:
-        SQL: trace
-
 
 spring:
   http:
@@ -26,9 +20,6 @@ spring:
     password: idziak
     driverClassName: com.mysql.jdbc.Driver
   jpa:
-    properties:
-      hibernate:
-        ddlAuto: create
-        formatSql: true
-        showSql: true
-    databasePlatform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
